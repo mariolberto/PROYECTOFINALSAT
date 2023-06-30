@@ -41,5 +41,10 @@ namespace ProyectofinalSAT
         {
 
         }
+
+        private void Entrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
