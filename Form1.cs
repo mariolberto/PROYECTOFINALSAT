@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.data.MySqlClient;
 
 namespace ProyectofinalSAT
 {
@@ -44,7 +45,12 @@ namespace ProyectofinalSAT
 
         private void Entrar_Click(object sender, EventArgs e)
         {
+            string nombre, contraseña;
+            nombre=user.AccessibleDefaultActionDescription Text;
+            contraseña = PasswordPropertyTextAttribute.Text;
+            MySqlconnection con = new MySqlconnection();
 
+            
         }
     }
 }
