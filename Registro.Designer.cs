@@ -65,7 +65,7 @@
             this.user.Location = new System.Drawing.Point(151, 77);
             this.user.Multiline = true;
             this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(181, 29);
+            this.user.Size = new System.Drawing.Size(181, 26);
             this.user.TabIndex = 3;
             this.user.Text = "ingrese su usuario";
             this.user.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -77,7 +77,7 @@
             this.textBox1.Location = new System.Drawing.Point(151, 149);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(181, 29);
+            this.textBox1.Size = new System.Drawing.Size(181, 27);
             this.textBox1.TabIndex = 4;
             this.textBox1.Text = "ingrese su contraseña";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
