@@ -48,9 +48,18 @@ namespace ProyectofinalSAT
             string nombre, contraseña;
             nombre=user.AccessibleDefaultActionDescription text;
             contraseña = PasswordPropertyTextAttribute.text;
-            MySqlconnection con = new MySqlconnection();
+            MySqlconnection con = new MySqlconnection(server = 127.0.0.1; InternalDataCollectionBase = login; user id = root; PasswordPropertyTextAttribute()
+                try
+            {
+                con.open();
 
-            
-        }
-    }
+            }
+            catch (MySqlExeption ex)
+            {
+                Messagebox.show("error" + ex.tostring());
+                throw;
+            }
+
+            string sql = "Select user,pass from user where user = ´" + nombre + 'AND pass = ' + contraseña + "' ";
+
 }

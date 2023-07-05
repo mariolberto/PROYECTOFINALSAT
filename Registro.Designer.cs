@@ -39,7 +39,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.BackColor = System.Drawing.Color.Violet;
             this.panel1.Controls.Add(this.cerrar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -60,21 +60,23 @@
             // 
             // user
             // 
+            this.user.BackColor = System.Drawing.Color.LimeGreen;
             this.user.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.user.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user.Location = new System.Drawing.Point(151, 77);
+            this.user.Location = new System.Drawing.Point(151, 87);
             this.user.Multiline = true;
             this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(181, 26);
+            this.user.Size = new System.Drawing.Size(181, 30);
             this.user.TabIndex = 3;
             this.user.Text = "ingrese su usuario";
             this.user.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.LimeGreen;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(151, 149);
+            this.textBox1.Location = new System.Drawing.Point(151, 163);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(181, 27);
@@ -92,7 +94,7 @@
             this.Entrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Entrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Entrar.ForeColor = System.Drawing.Color.Black;
-            this.Entrar.Location = new System.Drawing.Point(183, 232);
+            this.Entrar.Location = new System.Drawing.Point(186, 233);
             this.Entrar.Name = "Entrar";
             this.Entrar.Size = new System.Drawing.Size(110, 37);
             this.Entrar.TabIndex = 6;
@@ -104,6 +106,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(506, 450);
             this.Controls.Add(this.Entrar);
             this.Controls.Add(this.textBox1);
