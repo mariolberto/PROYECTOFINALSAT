@@ -63,7 +63,7 @@
             this.user.BackColor = System.Drawing.Color.LimeGreen;
             this.user.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.user.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user.Location = new System.Drawing.Point(151, 87);
+            this.user.Location = new System.Drawing.Point(151, 86);
             this.user.Multiline = true;
             this.user.Name = "user";
             this.user.Size = new System.Drawing.Size(181, 30);
@@ -76,7 +76,7 @@
             this.textBox1.BackColor = System.Drawing.Color.LimeGreen;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(151, 163);
+            this.textBox1.Location = new System.Drawing.Point(151, 162);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(181, 27);
@@ -94,7 +94,7 @@
             this.Entrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Entrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Entrar.ForeColor = System.Drawing.Color.Black;
-            this.Entrar.Location = new System.Drawing.Point(186, 233);
+            this.Entrar.Location = new System.Drawing.Point(186, 232);
             this.Entrar.Name = "Entrar";
             this.Entrar.Size = new System.Drawing.Size(110, 37);
             this.Entrar.TabIndex = 6;

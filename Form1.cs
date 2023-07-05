@@ -61,5 +61,9 @@ namespace ProyectofinalSAT
             }
 
             string sql = "Select user,pass from user where user = ´" + nombre + 'AND pass = ' + contraseña + "' ";
+            Mysql
 
-}
+            {
+
+            }
+
