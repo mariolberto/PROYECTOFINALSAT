@@ -46,6 +46,7 @@ namespace ProyectofinalSAT
         private void Entrar_Click(object sender, EventArgs e)
         {
             string nombre, contraseña;
+<<<<<<< HEAD
             nombre=user.AccessibleDefaultActionDescription text;
             contraseña = PasswordPropertyTextAttribute.text;
             MySqlconnection con = new MySqlconnection(server = 127.0.0.1; InternalDataCollectionBase = login; user id = root; PasswordPropertyTextAttribute()
@@ -67,3 +68,13 @@ namespace ProyectofinalSAT
 
             }
 
+=======
+            nombre=user.AccessibleDefaultActionDescription Text;
+            contraseña = PasswordPropertyTextAttribute.Text;
+            MySqlconnection con = new MySqlconnection();
+
+            
+        }
+    }
+}
+>>>>>>> f84c26ad3300d14fad790c0b0c1bd9e15edf04c7
