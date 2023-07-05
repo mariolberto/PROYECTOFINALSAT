@@ -63,7 +63,7 @@
             this.user.BackColor = System.Drawing.Color.LimeGreen;
             this.user.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.user.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user.Location = new System.Drawing.Point(151, 86);
+            this.user.Location = new System.Drawing.Point(151, 87);
             this.user.Multiline = true;
             this.user.Name = "user";
             this.user.Size = new System.Drawing.Size(181, 30);
